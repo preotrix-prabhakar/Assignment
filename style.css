@@ -1,0 +1,97 @@
+body{
+    background-color: var(--bcg);
+
+    justify-content: center;
+}
+.card{
+    margin: 10px;
+    background-color: white;
+    text-align: center;
+    padding: 0px 5px;
+    max-width: 100px;
+}
+.choice{
+    margin-top: 20px;
+    margin-left: 5%;
+    
+    display: flex;
+    width: 80%;
+    
+    justify-content: center;
+}
+.choice button{
+    min-width: 100px;
+}
+.fist{
+    border: 15px solid #0074B6;
+    border-radius: 50%;
+    /* background-color: #0074B6; */
+}
+.fist-line{
+    border: 3px solid aqua;
+}
+.heading{
+    display: flex;
+    margin-left:10% ;
+    justify-content: space-between;
+    border: 2px solid white;
+    padding: 15px;
+    width:fit-content;
+    align-items: center;
+    color: #656565;
+
+}
+hr{
+    border: 2px solid black;
+    transform: rotate(90deg);
+    
+
+}
+.paper{
+    border: 15px solid #BD00FF;
+    border-radius: 50%;
+}
+
+.rad-cir{
+    border-radius: 5px;
+}
+.right{
+    display: flex;
+}
+.rock-text{
+    color: white;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+:root{
+    --bcg:#89C15E;
+
+}
+.rules{
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    border-color: white;
+}
+
+.score{
+    color: white;
+}
+span{
+    font-size: 3em;
+}
+ul{
+    list-style: none;
+}
+
+.V{
+    position: relative;
+    top: 150px;
+    border: 15px solid #FFA943;
+    border-radius: 50%;
+}
+
