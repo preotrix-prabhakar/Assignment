@@ -10,8 +10,8 @@ body{
     min-width: 80px;
 }
  .choice{
-    margin-top: 20px;
-    margin-left: 15%;
+    margin-top: 80px;
+    margin-left: 40%;
      display: flex;
     width: 80%;
     justify-content: center;
@@ -33,11 +33,11 @@ body{
 }
 .heading{
     display: flex;
-    margin-left:10% ;
+    margin-left:25% ;
     justify-content: space-between;
     border: 2px solid white;
     padding: 15px;
-    width:60%;
+    width:50%;
   
     color: #656565;
 
@@ -52,6 +52,9 @@ hr{
     border-radius: 50%;
 }
 
+.pop-up{
+    z-index: +10;
+}
 .rad-cir{
     border-radius: 1em;
 }
@@ -84,7 +87,7 @@ hr{
 span{
     font-size: 3em;
 }
-ul{
+.rock-text ul{
     list-style: none;
 }
 
